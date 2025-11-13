@@ -161,7 +161,7 @@ layers:
   - $
   - '%'
   - ^
-  - Ctl+P
+  - Ctl+V
   - Ctl+Z
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}

@@ -54,11 +54,11 @@
 
         MAIN {
             bindings = <
-&kp ESC           &kp N1        &kp N2        &kp N3  &kp N4  &kp N5       &msc SCRL_UP    &kp N6       &kp N7         &kp N8         &kp N9      &kp N0    &kp EQUAL
-&kp TAB           &kp Q         &kp W         &kp E   &kp R   &kp T        &msc SCRL_DOWN  &kp Y        &kp U          &kp I          &kp O       &kp P     &kp MINUS
-&kp LEFT_CONTROL  &kp A         &kp S         &kp D   &kp F   &kp G        &kp C_VOL_DN    &kp H        &kp J          &kp K          &kp L       &kp SEMI  &kp APOS
-&kp LSHFT         &kp Z         &kp X         &kp C   &kp V   &kp B        &kp C_VOL_UP    &kp N        &kp M          &kp COMMA      &kp DOT     &kp FSLH  &kp RIGHT_SHIFT
-&none             &kp LEFT_GUI  &kp LEFT_ALT  &mo 2   &mo 1   &kp SPACE    &kp C_MUTE      &lt 1 ENTER  &kp BACKSPACE  &kp BACKSPACE  &kp DELETE  &kp CAPS
+&kp ESC           &kp N1  &kp N2        &kp N3        &kp N4  &kp N5       &msc SCRL_UP     &kp N6       &kp N7         &kp N8     &kp N9   &kp N0    &kp EQUAL
+&kp TAB           &kp Q   &kp W         &kp E         &kp R   &kp T        &msc SCRL_DOWN   &kp Y        &kp U          &kp I      &kp O    &kp P     &kp MINUS
+&kp LEFT_CONTROL  &kp A   &kp S         &kp D         &kp F   &kp G        &msc SCRL_LEFT   &kp H        &kp J          &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT         &kp Z   &kp X         &kp C         &kp V   &kp B        &msc SCRL_RIGHT  &kp N        &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+&none             &mo 2   &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &none            &lt 1 ENTER  &kp BACKSPACE  &kp DEL    &tog 3   &kp CAPS
             >;
 
             display-name = "MAIN";
@@ -66,11 +66,11 @@
 
         L1 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                &kp F6                   &trans  &kp F7             &kp F8          &kp F9           &kp F10        &kp F11           &kp F12
-&trans  &kp N7  &kp N8  &kp N9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &kp DOUBLE_QUOTES  &kp HOME        &kp UP           &kp END        &kp MINUS         &kp PIPE
-&trans  &kp N4  &kp N5  &kp N6  &kp UNDER             &kp COLON                &trans  &kp EQUAL          &kp LEFT        &kp DOWN         &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &kp N1  &kp N2  &kp N3  &kp N0                &kp PERIOD               &trans  &kp PLUS           &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH  &kp GREATER_THAN  &kp LESS_THAN
-&trans  &trans  &trans  &trans  &trans                &tog 3                   &trans  &trans             &trans          &trans           &trans         &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                &kp F6                   &trans             &kp F7             &kp F8          &kp F9           &kp F10        &kp F11           &kp F12
+&trans  &kp N7  &kp N8  &kp N9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans             &kp DOUBLE_QUOTES  &kp HOME        &kp UP           &kp END        &kp MINUS         &kp PIPE
+&trans  &kp N4  &kp N5  &kp N6  &kp UNDER             &kp COLON                &kp C_VOLUME_DOWN  &kp EQUAL          &kp LEFT        &kp DOWN         &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &kp N1  &kp N2  &kp N3  &kp N0                &kp PERIOD               &kp C_VOLUME_UP    &kp PLUS           &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH  &kp GREATER_THAN  &kp LESS_THAN
+&trans  &trans  &trans  &trans  &trans                &trans                   &kp C_MUTE         &trans             &trans          &trans           &trans         &trans
             >;
 
             display-name = "L1";
@@ -94,7 +94,7 @@
 &kp TAB    &kp TAB           &kp Q     &kp W   &kp E      &kp R        &trans      &kp Y   &kp U      &kp I      &kp O    &kp P     &kp EQUAL
 &kp LSHFT  &kp LEFT_SHIFT    &kp A     &kp S   &kp D      &kp F        &trans      &kp H   &kp J      &kp K      &kp L    &kp SEMI  &kp MINUS
 &kp LCTRL  &kp LEFT_CONTROL  &kp Z     &kp X   &kp C      &kp V        &trans      &kp N   &kp M      &kp COMMA  &kp DOT  &kp FSLH  &trans
-&trans     &kp LGUI          &kp LALT  &trans  &kp SPACE  &kp SPACE    &kp LA(F4)  &trans  &kp ENTER  &kp BSPC   &trans   &trans
+&trans     &kp LGUI          &kp LALT  &tog 3  &kp SPACE  &kp SPACE    &kp LA(F4)  &trans  &kp ENTER  &kp BSPC   &tog 3   &trans
             >;
         };
     };

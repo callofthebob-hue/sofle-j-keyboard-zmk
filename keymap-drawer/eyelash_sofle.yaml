@@ -90,7 +90,7 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - {t: '-', s: _}
+  - Sft+8
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '4', s: $}
@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   GAME:
   - $$mdi:keyboard-esc$$
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -210,12 +210,12 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - Q
   - W
   - E
   - R
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - Y
   - U
   - I
@@ -223,7 +223,7 @@ layers:
   - P
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -236,7 +236,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -249,15 +249,15 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - LGUI
-  - $$mdi:apple-keyboard-option$$
-  - L1
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - Alt+F4
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: GAME, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:

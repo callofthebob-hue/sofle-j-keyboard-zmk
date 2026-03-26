@@ -161,8 +161,8 @@ layers:
   - $
   - '%'
   - ^
-  - AC PASTE
-  - AC COPY
+  - Ctl+V
+  - Ctl+C
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}

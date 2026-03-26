@@ -78,7 +78,6 @@
 &trans     &none   &mo 2   &kp LGUI  &kp LALT  &kp SPACE    &soft_off       &lt 1 ENTER  &kp BSPC  &kp DEL    &mo 2    &kp CAPS
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "Main";
         };
 

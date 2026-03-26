@@ -161,8 +161,8 @@ layers:
   - $
   - '%'
   - ^
-  - PASTE
-  - COPY
+  - AC PASTE
+  - AC COPY
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
